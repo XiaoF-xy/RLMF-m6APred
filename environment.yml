@@ -1,0 +1,24 @@
+name: rlmf_m6apred
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10.14
+  - pytorch=2.3.1
+  - pytorch-cuda=12.1
+  - mkl<2024.1
+  - pip
+  - setuptools
+  - wheel
+  - pip:
+      - transformers==4.41.2
+      - tokenizers==0.19.1
+      - peft==0.11.1
+      - huggingface-hub==0.23.4
+      - accelerate==0.31.0
+      - numpy==1.26.4
+      - scikit-learn==1.5.2
+      - einops==0.8.0
+      - tqdm==4.66.5
+      - pytest==8.3.3

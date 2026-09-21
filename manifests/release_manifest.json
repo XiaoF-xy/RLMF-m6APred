@@ -1,0 +1,23 @@
+{
+  "release": "RLMF-m6APred inference-only",
+  "sequence_length": 41,
+  "folds_per_dataset": 5,
+  "datasets": [
+    "H_b",
+    "H_k",
+    "H_l",
+    "M_b",
+    "M_h",
+    "M_k",
+    "M_l",
+    "M_t",
+    "R_b",
+    "R_k",
+    "R_l"
+  ],
+  "weight_files": 55,
+  "internal_benchmark_files": 11,
+  "independent_test_files": 11,
+  "external_validation_files": 8,
+  "checkpoint_format": "tensor-only PyTorch state dictionary"
+}
