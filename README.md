@@ -1,9 +1,13 @@
 # RLMF-m6APred
 
+[English](README.md) | [简体中文](README_zh-CN.md)
+
 RLMF-m6APred predicts RNA m6A sites from 41-nt sequences. This repository
 provides the inference code and the datasets required to reproduce the
 independent-test results. The released model weights are hosted on
 [Hugging Face](https://huggingface.co/Yu-star/RLMF-m6APred).
+
+**Web server:** [https://xiaof-xy--rlmf.modal.run](https://xiaof-xy--rlmf.modal.run)
 
 ## 1. Environment
 
@@ -68,17 +72,3 @@ CUDA_VISIBLE_DEVICES=0 python predict.py \
 
 The model accepts 41-nt sequences. RNA `U` is normalized to `T` during input
 processing.
-
-## Data
-
-```text
-data/internal_benchmark/       11 benchmark datasets
-data/independent_test/         11 independent-test datasets
-data/external_validation/      DSNm6A mammalian and cross-species datasets
-```
-
-See `DATA_SOURCES.md` for provenance and citation information.
-
-## Citation
-
-Citation information will be added after publication.
